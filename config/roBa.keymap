@@ -9,6 +9,8 @@
     quick-tap-ms = <0>;
 };
 
+#define AML 4
+
 &trackball {
     scroll-layers = <5>;
 
