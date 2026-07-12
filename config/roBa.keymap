@@ -40,7 +40,7 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer_threshold AML 10000>;
+        input-processors = <&zip_temp_layer_threshold AML 700>;
     };
 
     combos {
